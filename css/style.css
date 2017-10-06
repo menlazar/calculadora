@@ -1,0 +1,64 @@
+body{
+    background: dimgray;
+}
+#panel_botones{
+    margin-left: 37%;
+    height: 425px;
+    width: 400px;
+    background: gray;
+}
+#botones > *{
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: -10px;
+    font-size: 35px;
+    color: white;
+    background: orange;
+    height: 70px;
+    width: 70px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+}
+#botones > *:hover{
+    background: orangered;
+}
+div#pantalla{
+    background: whitesmoke;
+    margin-left: 37%;
+    height: 100px;
+    width: 400px;
+    text-align: center;
+    font-size: 40px;
+}
+#botones p{
+    margin-top: 15px;
+}
+div .pantalla {
+    font-size: 100px;
+    margin-top: 50px;
+    background: white;
+    margin-left: 37%;
+    height: 100px;
+    width: 398px;
+    text-align: right;
+    border: none;
+}
+
+@media screen and (max-width: 480px){
+    #botones .porcentaje {
+        display: none;
+    }
+    #botones .raizCuadrada{
+        display: none;
+    }
+    #botones .cuadrado{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    #botones .raizCuadrada{
+        display: none;
+    }
+}
